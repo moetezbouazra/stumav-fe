@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheHeader class="!z-999999" />
+    <TheHeader />
     <main class="flex flex-col bg-white text-center">
       <RouterView />
     </main>

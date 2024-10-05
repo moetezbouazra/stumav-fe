@@ -6,7 +6,8 @@ defineOptions({
 
 <template>
   <div>
-    Hello
+    <HeroSection />
+    <AboutSection />
   </div>
 </template>
 

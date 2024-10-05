@@ -7,16 +7,18 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AboutSection: typeof import('./components/layout/sections/AboutSection.vue')['default']
     BaseFooter: typeof import('./components/BaseFooter.vue')['default']
     BaseHeader: typeof import('./components/BaseHeader.vue')['default']
-    copy: typeof import('./components/TopBar copy.vue')['default']
-    NavBar: typeof import('./components/NavBar.vue')['default']
+    copy: typeof import('./components/layout/sections/HeroSection copy.vue')['default']
+    HeroSection: typeof import('./components/layout/sections/HeroSection.vue')['default']
+    NavBar: typeof import('./components/layout/header/NavBar.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheFooter: typeof import('./components/TheFooter.vue')['default']
-    TheHeader: typeof import('./components/TheHeader.vue')['default']
-    TopBar: typeof import('./components/TopBar.vue')['default']
+    TheFooter: typeof import('./components/layout/footer/TheFooter.vue')['default']
+    TheHeader: typeof import('./components/layout/header/TheHeader.vue')['default']
+    TopBar: typeof import('./components/layout/header/TopBar.vue')['default']
     TopBarContact: typeof import('./components/TopBarContact.vue')['default']
     TopBarContacts: typeof import('./components/TopBarContacts.vue')['default']
   }

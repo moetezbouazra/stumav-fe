@@ -3,11 +3,11 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'STUMAV',
+  title: 'Stumav',
   meta: [
     {
       name: 'description',
-      content: 'STUMAV est une société à responsabilité limitée fondée en 2013, située dans la zone industrielle de Jemmal. Spécialisée dans [votre domaine d\'activité], nous offrons des solutions innovantes pour répondre à vos besoins.',
+      content: 'Stumav est une société à responsabilité limitée fondée en 2013, située dans la zone industrielle de Jemmal. Spécialisée dans [votre domaine d\'activité], nous offrons des solutions innovantes pour répondre à vos besoins.',
     },
     {
       name: 'theme-color',

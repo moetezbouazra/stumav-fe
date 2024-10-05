@@ -12,9 +12,13 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-700 text-white cursor-pointer !outline-none hover:bg-teal-800 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
+    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-blue-800 rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-blue-800 bg-transparent hover:bg-primary hover:text-white hover:border-primary hover:transition-ease-linear hover:transition-delay-75'],
     ['text-primary', 'text-[#0054A6]'],
+    ['text-secondary', 'text-[#444444]'],
+    ['text-light', 'text-[#b4b4b4]'],
+    ['bg-primary', 'bg-[#0054A6]'],
+    ['border-primary', 'border-[#0054A6]'],
+    ['zoom-in', 'transition-all duration-400 ease-linear hover:scale-120 hover:brightness-135 hover:transition-ease-linear hover:transition-delay-200 hover:transition-duration-1000'],
   ],
   presets: [
     presetUno(),

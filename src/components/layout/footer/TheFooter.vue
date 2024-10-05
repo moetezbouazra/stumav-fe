@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    Empty
+    Empty Footer
   </div>
 </template>
