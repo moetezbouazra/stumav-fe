@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="py-16 text-left">
+  <section class="px-8 py-16 text-left lg:px-0">
     <div class="mx-auto max-w-270 container">
       <div>
         <h3>

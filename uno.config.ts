@@ -12,13 +12,13 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-blue-800 rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-blue-800 bg-transparent hover:bg-primary hover:text-white hover:border-primary hover:transition-ease-linear hover:transition-delay-75'],
-    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-primary rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-primary hover:bg-transparent hover:text-blue-800 hover:border-blue-800 hover:transition-ease-linear hover:transition-delay-75'],
-    ['text-primary', 'text-[#0054A6]'],
+    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#d78a1c] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-[#d78a1c] bg-transparent hover:bg-[#fa992a] hover:text-white hover:border-[#fa992a] hover:transition-ease-linear hover:transition-delay-75'],
+    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#fa992a] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-[#fa992a] hover:bg-transparent hover:text-[#d78a1c] hover:border-[#d78a1c] hover:transition-ease-linear hover:transition-delay-75'],
+    ['text-primary', 'text-[#fa992a]'],
     ['text-secondary', 'text-[#444444]'],
     ['text-light', 'text-[#b4b4b4]'],
-    ['bg-primary', 'bg-[#0054A6]'],
-    ['border-primary', 'border-[#0054A6]'],
+    ['bg-primary', 'bg-[#fa992a]'],
+    ['border-primary', 'border-[#fa992a]'],
     ['zoom-in', 'transition-all duration-400 ease-linear hover:scale-120 hover:brightness-135 hover:transition-ease-linear hover:transition-delay-200 hover:transition-duration-1000'],
   ],
   presets: [

@@ -9,6 +9,7 @@
 @import './markdown.css';
 @import 'overrides/primevue/_carousel.scss';
 @import 'overrides/primevue/_menubar.scss';
+@import 'overrides/primevue/inputtext';
 
 html,
 body,
@@ -53,10 +54,10 @@ h3 {
   font-weight: 300;
   line-height: 1;
   font-size: 40px;
-  border-color: #0054a6;
+  border-color: #fa992a;
   margin-bottom: 2px;
   margin-top: 0;
-  color: #0054a6;
+  color: #fa992a;
 }
 
 p {

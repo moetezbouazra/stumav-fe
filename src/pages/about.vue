@@ -10,13 +10,13 @@
 
       <div>
         <p class="mb-4 text-gray-700 font-light">
-          <strong>CNA</strong> est une entreprise commerciale créée en 2008 spécialisée dans la vente <strong>en Gros</strong> et <strong>en Détail</strong> de produits d'aluminium (des profils en aluminium, des volets roulants, des accessoires, des moteurs, etc.) et de machines utilisées dans la menuiserie d'aluminium.
+          <strong>STUMAV</strong> est une entreprise commerciale créée en 2008 spécialisée dans la vente <strong>en Gros</strong> et <strong>en Détail</strong> de produits d'aluminium (des profils en aluminium, des volets roulants, des accessoires, des moteurs, etc.) et de machines utilisées dans la menuiserie d'aluminium.
         </p>
         <p class="mb-4 text-gray-700 font-light">
-          <strong>CNA</strong> fournit aussi à ses clients des services de livraison et des services après-vente, comme la maintenance des machines et la réparation des moteurs tubulaires.
+          <strong>STUMAV</strong> fournit aussi à ses clients des services de livraison et des services après-vente, comme la maintenance des machines et la réparation des moteurs tubulaires.
         </p>
         <p class="mb-4 text-gray-700 font-light">
-          Avec plus de 4500 références commerciales, CNA est devenue, malgré son jeune âge, une des entreprises principales dans son secteur.
+          Avec plus de 4500 références commerciales, STUMAV est devenue, malgré son jeune âge, une des entreprises principales dans son secteur.
         </p>
 
         <div class="mt-6">
@@ -42,7 +42,7 @@
         </div>
 
         <p class="mb-4 mt-8 text-gray-700 font-light">
-          <strong>CNA</strong> est implantée, non seulement à Sfax, mais aussi au sud de la Tunisie grâce à son succursale <strong>C2A</strong> (Comptoir d’Aluminium et Acier) :
+          <strong>STUMAV</strong> est implantée, non seulement à Sfax, mais aussi au sud de la Tunisie grâce à son succursale <strong>C2A</strong> (Comptoir d’Aluminium et Acier) :
         </p>
 
         <div>

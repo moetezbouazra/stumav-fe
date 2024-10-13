@@ -5,6 +5,14 @@ import type SwiperCore from 'swiper'
 import { PartnersService } from '~/services/partners'
 
 const modules = [Pagination, Navigation]
+const breakpoints = {
+  640: {
+    slidesPerView: 1, // 1 slide per view for small screens
+  },
+  1024: {
+    slidesPerView: 6, // 6 slides per view for large screens
+  },
+}
 const partners = ref()
 const swiperRef = ref<SwiperCore>()
 
@@ -25,11 +33,11 @@ onMounted(() => {
 
       <Swiper
         ref="swiperRef"
-        :slides-per-view="6"
         :space-between="18"
         :modules="modules"
         class="max-w-270"
         autoplay
+        :breakpoints
       >
         <SwiperSlide v-for="partner in partners" :key="partner.id">
           <img :src="partner.image" :alt="partner.name" class="w-42.5 border border-[#d1d2d4]">

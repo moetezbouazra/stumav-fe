@@ -37,7 +37,7 @@
 
             <!-- Submit Buttons -->
             <div class="flex pt-4 space-x-4">
-              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#023f7b]">
+              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#d78a1c]">
                 Envoyer
               </button>
               <button type="reset" class="btn hover:bg-[#3c3c3c]">

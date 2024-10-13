@@ -1,3 +1,7 @@
-$primary-color: #0054a6;
+$primary-color: #fa992a;
 $secondary-color: #444444;
 $light-color: #b4b4b4;
+
+:root {
+  --p-menubar-item-focus-background: #d35400 !important;
+}

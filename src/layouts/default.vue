@@ -11,5 +11,6 @@ const route = useRoute()
     <partners-section v-if="route.path !== '/partners'" />
     <newsletter-section />
     <TheFooter />
+    <ScrollUpButton />
   </div>
 </template>

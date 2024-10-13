@@ -3,7 +3,7 @@
 
 <template>
   <footer class="bg-[#3c3c3c] pt-10 text-white font-300">
-    <div class="mx-auto max-w-270 container">
+    <div class="mx-auto max-w-270 px-8 md:px-0 container">
       <div class="flex flex-wrap justify-between">
         <div>
           <div class="mb-6">
@@ -15,7 +15,7 @@
               <li>Samedi : 8:00-14:00</li>
             </ul>
             <a href="/" class="mt-6 block">
-              <img src="/images/logo.svg" alt="CNA" class="w-24 grayscale-100 hover:grayscale-0">
+              <img src="/images/logo.svg" alt="STUMAV" class="w-24 grayscale-100 hover:grayscale-0">
             </a>
           </div>
         </div>
@@ -78,12 +78,12 @@
 
     <div class="bg-[#272727] py-4 text-center text-sm">
       <div class="mx-auto max-w-270">
-        <div class="w-full flex justify-between container">
+        <div class="w-full flex flex-wrap justify-center gap-y-4 md:justify-between container">
           <div />
-          <div>
-            Stumav <Copyright-icon class="mb-1 inline" /> 2024 All Rights Reserved. Powered by <a href="http://www.incentino.com" class="hover:text-gray-400">Incentino</a>
+          <div class="order-2 px-5 md:px-0">
+            Stumav <Copyright-icon class="mb-1 inline" /> 2024 All Rights Reserved. Powered by <a href="http://www.incentino.com" class="hover:text-gray-400" target="_blank">Incentino</a>
           </div>
-          <div class="flex flex-wrap items-center justify-end">
+          <div class="order-1 flex flex-wrap items-center justify-end md:order-3">
             <div class="mt-4 flex justify-center md:mt-0 md:w-1/3 md:justify-end space-x-4">
               <a href="https://www.facebook.com/profile.php?id=100089451492132/" class="hover:text-gray-400" title="Facebook"><Facebook-icon /></a>
               <a href="#" class="hover:text-gray-400" title="Google +"><Instagram-icon /></a>

@@ -8,7 +8,7 @@
           </h3>
           <hr class="my-8 h-px max-w-65 w-full border-none bg-white text-left">
           <p text-white>
-            Accessible 24h/24, 7j/7, l'outil de devis en ligne vous permet d'envoyer un devis en ligne sur un produit précis.<br>Remplissez le formulaire ci-dessous et renvoyez le. Le service de conseil de CNA se chargera d’y répondre au plus bref delai.
+            Accessible 24h/24, 7j/7, l'outil de devis en ligne vous permet d'envoyer un devis en ligne sur un produit précis.<br>Remplissez le formulaire ci-dessous et renvoyez le. Le service de conseil de STUMAV se chargera d’y répondre au plus bref delai.
           </p>
         </div>
       </div>
@@ -65,12 +65,12 @@
 
             <!-- Pièce Jointe -->
             <div>
-              <input id="contact-file" type="file" name="data[Contact][attached]" class="file:mr-4 !h-full !w-fit file:cursor-pointer file:border-0 !border-none file:px-4 file:py-2 file:text-sm file:text-white hover:file:bg-blue-700">
+              <input id="contact-file" type="file" name="data[Contact][attached]" class="file:mr-4 !h-full !w-fit file:cursor-pointer file:border-0 !border-none file:px-4 file:py-2 file:text-sm file:text-white hover:file:bg-[#d35400]">
             </div>
 
             <!-- Submit Buttons -->
             <div class="flex pt-4 space-x-4">
-              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#023f7b]">
+              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#d78a1c]">
                 Envoyer
               </button>
               <button type="reset" class="btn hover:bg-[#3c3c3c]">

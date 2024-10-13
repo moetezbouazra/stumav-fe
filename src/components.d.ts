@@ -33,6 +33,7 @@ declare module 'vue' {
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ScrollUpButton: typeof import('./components/buttons/ScrollUpButton.vue')['default']
     TheFooter: typeof import('./components/layout/footer/TheFooter.vue')['default']
     TheHeader: typeof import('./components/layout/header/TheHeader.vue')['default']
     TopBar: typeof import('./components/layout/header/TopBar.vue')['default']

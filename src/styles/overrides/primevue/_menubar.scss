@@ -9,7 +9,7 @@
 
 .p-menubar-item-content {
   border-radius: 0 !important;
-  color: #b3cce4 !important;
+  color: white !important;
   transition-property: all !important;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
   transition-duration: 200ms !important;
@@ -17,12 +17,16 @@
 }
 
 .p-menubar-item-content:hover {
-  background-color: #023f7b !important;
+  background-color: #d78a1c !important;
   color: white !important;
   transition-timing-function: linear !important;
   transition-duration: 200ms !important;
 }
 
 .p-menubar-item-content:active {
-  background-color: #023f7b !important;
+  background-color: #d78a1c !important;
+}
+
+.p-menubar-mobile {
+  padding: 8px !important;
 }
