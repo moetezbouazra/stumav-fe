@@ -13,6 +13,7 @@ import {
 export default defineConfig({
   shortcuts: [
     ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-blue-800 rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-blue-800 bg-transparent hover:bg-primary hover:text-white hover:border-primary hover:transition-ease-linear hover:transition-delay-75'],
+    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-primary rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-primary hover:bg-transparent hover:text-blue-800 hover:border-blue-800 hover:transition-ease-linear hover:transition-delay-75'],
     ['text-primary', 'text-[#0054A6]'],
     ['text-secondary', 'text-[#444444]'],
     ['text-light', 'text-[#b4b4b4]'],
@@ -42,4 +43,13 @@ export default defineConfig({
     transformerVariantGroup(),
   ],
   safelist: 'prose prose-sm m-auto text-left'.split(' '),
+  rules: [
+    ['bg-products', { 'background-image': 'url(https://www.cna.com.tn/assets/images/parallax/product-list.png)', 'background-position': '50% -50px;' }],
+    ['custom-shadow', { 'box-shadow': '0px 0px 25px 0px rgba(236, 236, 236, 1);' }],
+    ['bg-alu-texture', {
+      'background': '-webkit-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);',
+      'background-size': '10px 10px, 10px 10px, 100% 100%',
+      'background-position': '1px 1px, 0px 0px, center center',
+    }],
+  ],
 })

@@ -5,7 +5,7 @@ const products = ref()
 const currentSlide = ref(0)
 
 onMounted(() => {
-  ProductService.getProducts().then((data: string | any[]) => (products.value = data.slice(0, 9)))
+  ProductService.getProducts().then((data: string | any[]) => (products.value = data.slice(0, 3)))
 })
 </script>
 

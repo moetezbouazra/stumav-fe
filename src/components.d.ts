@@ -7,12 +7,29 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    2: typeof import('./components/icons/socials/FacebookIcon copy 2.vue')['default']
     AboutSection: typeof import('./components/layout/sections/AboutSection.vue')['default']
+    ArticleSwiperCard: typeof import('./components/article/ArticleSwiperCard.vue')['default']
     BaseFooter: typeof import('./components/BaseFooter.vue')['default']
     BaseHeader: typeof import('./components/BaseHeader.vue')['default']
-    copy: typeof import('./components/layout/sections/HeroSection copy.vue')['default']
+    ContactCard: typeof import('./components/contact/ContactCard.vue')['default']
+    ContactForm: typeof import('./components/contact/ContactForm.vue')['default']
+    copy: typeof import('./components/icons/socials/LinkedinIcon copy.vue')['default']
+    CopyrightIcon: typeof import('./components/icons/CopyrightIcon.vue')['default']
+    FacebookIcon: typeof import('./components/icons/socials/FacebookIcon.vue')['default']
     HeroSection: typeof import('./components/layout/sections/HeroSection.vue')['default']
+    InstagramIcon: typeof import('./components/icons/socials/InstagramIcon.vue')['default']
+    LastestProductsSection: typeof import('./components/layout/sections/LastestProductsSection.vue')['default']
+    LatestNewsSection: typeof import('./components/layout/sections/LatestNewsSection.vue')['default']
+    LatestProductsSection: typeof import('./components/layout/sections/LatestProductsSection.vue')['default']
+    LinkedinIcon: typeof import('./components/icons/socials/LinkedinIcon.vue')['default']
+    MapEmbed: typeof import('./components/contact/MapEmbed.vue')['default']
     NavBar: typeof import('./components/layout/header/NavBar.vue')['default']
+    News: typeof import('./components/layout/sections/news.vue')['default']
+    NewsletterSection: typeof import('./components/layout/sections/newsletterSection.vue')['default']
+    NewsSwiperCard: typeof import('./components/articles/NewsSwiperCard.vue')['default']
+    PartnersSection: typeof import('./components/layout/sections/PartnersSection.vue')['default']
+    ProductSwiperCard: typeof import('./components/product/ProductSwiperCard.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -21,5 +38,6 @@ declare module 'vue' {
     TopBar: typeof import('./components/layout/header/TopBar.vue')['default']
     TopBarContact: typeof import('./components/TopBarContact.vue')['default']
     TopBarContacts: typeof import('./components/TopBarContacts.vue')['default']
+    YoutubeIcon: typeof import('./components/icons/socials/YoutubeIcon.vue')['default']
   }
 }

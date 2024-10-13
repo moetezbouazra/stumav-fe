@@ -2,6 +2,8 @@ import { ViteSSG } from 'vite-ssg'
 import { setupLayouts } from 'virtual:generated-layouts'
 
 import { routes } from 'vue-router/auto-routes'
+
+// PrimeVue
 import { definePreset } from '@primevue/themes'
 import PrimeVue from 'primevue/config'
 import InputText from 'primevue/inputtext'
@@ -10,8 +12,15 @@ import Menubar from 'primevue/menubar'
 import Ripple from 'primevue/ripple'
 import Aura from '@primevue/themes/nora'
 import Carousel from 'primevue/carousel'
+
 import App from './App.vue'
 import type { UserModule } from './types'
+
+// Swiper
+import '~/modules/swiper' // Register Swiper globally
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 
 import '@unocss/reset/tailwind.css'
 import 'primeicons/primeicons.css'
@@ -42,6 +51,11 @@ export const createApp = ViteSSG(
   {
     routes: setupLayouts(routes),
     base: import.meta.env.BASE_URL,
+    scrollBehavior() {
+      return {
+        top: 0,
+      }
+    },
   },
   (ctx) => {
     // install all modules under `modules/`

@@ -8,7 +8,7 @@
   >
     <TopBar />
   </header>
-  <header class="sticky top-0 z-10">
+  <header class="sticky top-0 z-999">
     <NavBar />
   </header>
 </template>

@@ -22,3 +22,7 @@
   transition-timing-function: linear !important;
   transition-duration: 200ms !important;
 }
+
+.p-menubar-item-content:active {
+  background-color: #023f7b !important;
+}

@@ -4,30 +4,38 @@ import InputIcon from 'primevue/inputicon'
 const items = ref([
   {
     label: 'Accueil',
+    link: '/',
   },
   {
     label: 'A Propos',
+    link: '/about',
   },
   {
     label: 'Produits',
+    link: '/products',
   },
   {
     label: 'Nos Partenaires',
+    link: '/partners',
   },
   {
     label: 'Devis en Ligne',
+    link: '/quotation',
   },
   {
     label: 'Contact',
+    link: '/contact',
   },
 ])
+const router = useRouter()
+const route = useRoute()
 </script>
 
 <template>
   <div class="card bg-primary">
     <Menubar :model="items">
       <template #item="{ item, props }">
-        <a v-ripple class="flex items-center" v-bind="props.action">
+        <a v-ripple class="flex items-center" :class="[route.path === item.link ? 'bg-primary bg-[#023f7b]' : '']" v-bind="props.action" @click="router.push(item.link)">
           <span>{{ item.label }}</span>
         </a>
       </template>
