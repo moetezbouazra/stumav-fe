@@ -15,7 +15,7 @@
             EMAIL
           </div>
           <div class="font-semibold">
-            cna1@cna.com.tn
+            stumav1@gmail.com
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
             Téléphone
           </div>
           <div class="font-semibold">
-            (+216) 74 665 095
+            (+216) 29 402 440
           </div>
         </div>
       </div>

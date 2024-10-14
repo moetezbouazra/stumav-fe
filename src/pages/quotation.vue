@@ -100,7 +100,7 @@
               <div>
                 <span class="text-[11px] text-light font-600 uppercase">Téléphone</span>
                 <p class="text-[15px] text-gray-800 font-semibold leading-[2px]">
-                  (+216) 74 665 095
+                  (+216) 29 402 440
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@
               <div>
                 <span class="text-[11px] text-light font-600 uppercase">E-mail</span>
                 <p class="text-[15px] text-gray-800 font-semibold leading-[2px]">
-                  cna1@cna.com.tn
+                  stumav1@gmail.com
                 </p>
               </div>
             </div>

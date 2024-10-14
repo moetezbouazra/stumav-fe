@@ -8,6 +8,15 @@ const modules = [Pagination, Navigation]
 const articles = ref()
 const swiperRef = ref<SwiperCore>()
 
+const breakpoints = {
+  640: {
+    slidesPerView: 1, // 1 slide per view for small screens
+  },
+  1024: {
+    slidesPerView: 3,
+  },
+}
+
 onMounted(() => {
   NewsService.getNews().then((data: string | any[]) => (articles.value = data.slice(0, 9)))
 })
@@ -24,18 +33,18 @@ onMounted(() => {
       </div>
 
       <div class="flex items-center gap-x-4">
-        <div class="swiper-button-prev-custom i-fa6-solid-chevron-left text-2xl text-primary" />
+        <div class="swiper-button-prev-custom i-fa6-solid-chevron-left text-2xl text-primary !overflow-hidden" />
 
         <Swiper
           ref="swiperRef"
-          :slides-per-view="3"
           :space-between="20"
           :modules="modules"
           :navigation="{
             nextEl: '.swiper-button-next-custom',
             prevEl: '.swiper-button-prev-custom',
           }"
-          class="max-w-270"
+          :breakpoints
+          class="w-43 sm:w-270"
         >
           <SwiperSlide v-for="article in articles" :key="article.id">
             <article-swiper-card :article />

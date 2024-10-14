@@ -35,7 +35,7 @@ onMounted(() => {
         ref="swiperRef"
         :space-between="18"
         :modules="modules"
-        class="max-w-270"
+        class="w-43 sm:w-270"
         autoplay
         :breakpoints
       >

@@ -26,7 +26,7 @@
           <ul class="text-gray-700 list-disc list-inside">
             <li><strong>Tel : 74 665 095 / 74 675 765 / 29 340 055</strong></li>
             <li><strong>Fax : 74 665 094</strong></li>
-            <li><strong>Mail : cna1@cna.com.tn</strong></li>
+            <li><strong>Mail : stumav1@gmail.com</strong></li>
           </ul>
         </div>
 
@@ -37,7 +37,7 @@
           <ul class="text-gray-700 list-disc list-inside">
             <li><strong>Tel : 74 830 605 / 29 377 452</strong></li>
             <li><strong>Fax : 74 830 604</strong></li>
-            <li><strong>Mail : cna2@cna.com.tn</strong></li>
+            <li><strong>Mail : stumav1@gmail.com</strong></li>
           </ul>
         </div>
 

@@ -3,7 +3,7 @@
 
 <template>
   <footer class="bg-[#3c3c3c] pt-10 text-white font-300">
-    <div class="mx-auto max-w-270 px-8 md:px-0 container">
+    <div class="mx-4 max-w-270 px-8 md:mx-auto md:px-0 container">
       <div class="flex flex-wrap justify-between">
         <div>
           <div class="mb-6">

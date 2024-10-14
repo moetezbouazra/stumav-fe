@@ -5,7 +5,7 @@
 <template>
   <section class="m-8 h-full max-w-5xl gap-10 py-10 text-left md:mx-auto md:flex">
     <div class="mx-2 flex-1 overflow-clip">
-      <img class="h-auto w-full zoom-in" src="https://www.cna.com.tn/files/about.png" alt="About STUMAV">
+      <img class="h-auto w-full zoom-in" src="/images/about/about.png" alt="About STUMAV">
     </div>
     <div class="mx-2 mt-10 flex-1 md:mt-0">
       <h3>

@@ -11,7 +11,7 @@ defineProps({
 
 <template>
   <div class="h-90 max-h-90 overflow-hidden bg-white">
-    <img :src="article?.image" :alt="article.title" class="h-45 h-full max-h-45 object-cover zoom-in">
+    <img :src="article?.image" :alt="article.title" class="h-45 max-h-45 w-full object-cover zoom-in">
     <div class="relative h-45 max-h-45 flex flex-col items-center justify-around bg-white">
       <div>
         <div class="text-[13px] text-primary font-600">

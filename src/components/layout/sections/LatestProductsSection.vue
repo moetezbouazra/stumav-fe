@@ -9,6 +9,15 @@ const modules = [Pagination, Navigation]
 const products = ref()
 const swiperRef = ref<SwiperCore>()
 
+const breakpoints = {
+  640: {
+    slidesPerView: 1, // 1 slide per view for small screens
+  },
+  1024: {
+    slidesPerView: 4,
+  },
+}
+
 onMounted(() => {
   ProductService.getProducts().then((data: string | any[]) => {
     products.value = data.slice(0, 9)
@@ -38,14 +47,14 @@ onMounted(() => {
 
           <Swiper
             ref="swiperRef"
-            :slides-per-view="4"
             :space-between="20"
             :modules="modules"
             :navigation="{
               nextEl: '.swiper-button-next-custom',
               prevEl: '.swiper-button-prev-custom',
             }"
-            class="max-w-270"
+            :breakpoints
+            class="w-43 sm:w-270"
           >
             <SwiperSlide v-for="product in products" :key="product.id">
               <img :src="product.image" :alt="product.name" class="h-42 object-cover">

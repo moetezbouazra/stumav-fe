@@ -18,10 +18,10 @@ const items = ref([
     label: 'Nos Partenaires',
     link: '/partners',
   },
-  {
-    label: 'Devis en Ligne',
-    link: '/quotation',
-  },
+  // {
+  //   label: 'Devis en Ligne',
+  //   link: '/quotation',
+  // },
   {
     label: 'Contact',
     link: '/contact',

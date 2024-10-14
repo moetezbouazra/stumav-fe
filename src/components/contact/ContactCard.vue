@@ -15,7 +15,7 @@ defineProps({
       <div
         class="text-md mb-4 py-8 font-light custom-shadow"
       >
-        <div class="flex justify-around">
+        <div class="grid grid-cols-1 justify-around gap-8 md:grid-cols-2 lg:flex md:gap-0">
           <div>
             <div class="i-fa6-solid-store mx-auto mb-2 text-3xl text-primary" />
             <h5 class="text-[20px] text-primary font-600">
