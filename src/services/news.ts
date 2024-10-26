@@ -23,13 +23,13 @@ export const NewsService = {
         id: '4',
         title: 'Community Rallies to Support Local Charity',
         date: '2024-10-05',
-        image: 'https://www.cna.com.tn/files/charity-event.jpg',
+        image: 'https://business.itn.co.uk/wp-content/uploads/2024/04/itn-manufacturing-programme-hero-2024-03.jpg',
       },
       {
         id: '5',
         title: 'Weather Update: Heavy Rains Expected Tomorrow',
         date: '2024-10-09',
-        image: 'https://www.cna.com.tn/files/weather-update.jpg',
+        image: 'https://www.azernews.az/media/pictures/company_picture.jpg',
       },
     ]
   },
