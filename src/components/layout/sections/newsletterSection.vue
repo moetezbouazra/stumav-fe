@@ -14,7 +14,7 @@
         <div class="mt-auto w-full md:w-1/2">
           <form id="NewslettreViewForm " action="#" class="flex" method="post" accept-charset="utf-8">
             <input id="newsletter_mail" name="data[Newslettre][mail]" required class="h-10 flex-grow border border-0 border-gray-300 bg-white px-4 py-2 text-gray-700 focus:outline-none" autocomplete="off" maxlength="255" type="email">
-            <button class="h-10 rounded-none border-none bg-primary px-6 py-1 text-white font-300 btn hover:bg-[#d35400]">
+            <button class="h-10 rounded-none border-none bg-primary px-6 py-1 text-white font-300 btn hover:bg-[#E6D134]">
               S'inscrire
             </button>
           </form>

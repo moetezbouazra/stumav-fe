@@ -47,11 +47,11 @@
             </div>
             <div class="mb-4 flex items-center">
               <i class="i-fa6-solid-envelope mr-4" />
-              <a href="mailto:stumav1@gmail.com" class="hover:text-gray-400">stumav1@gmail.com</a>
+              <a href="mailto:contact@stumav.com" class="hover:text-gray-400">contact@stumav.com</a>
             </div>
             <div class="flex items-center">
               <i class="i-fa6-solid-phone mr-4" />
-              <span>(+216) 29 402 440</span>
+              <span>(+216) 73 482 398</span>
             </div>
           </div>
         </div>

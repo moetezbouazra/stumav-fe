@@ -10,7 +10,7 @@ const breakpoints = {
     slidesPerView: 1, // 1 slide per view for small screens
   },
   1024: {
-    slidesPerView: 6, // 6 slides per view for large screens
+    slidesPerView: 5, // 6 slides per view for large screens
   },
 }
 const partners = ref()

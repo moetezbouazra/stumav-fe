@@ -35,7 +35,7 @@ const route = useRoute()
   <div class="card bg-primary">
     <Menubar :model="items">
       <template #item="{ item, props }">
-        <a v-ripple class="flex items-center" :class="[route.path === item.link ? 'bg-primary bg-[#d78a1c]' : '']" v-bind="props.action" @click="router.push(item.link)">
+        <a v-ripple class="flex items-center" :class="[route.path === item.link ? 'bg-primary bg-[#E6D134]' : '']" v-bind="props.action" @click="router.push(item.link)">
           <span>{{ item.label }}</span>
         </a>
       </template>

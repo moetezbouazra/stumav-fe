@@ -12,13 +12,13 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#d78a1c] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-[#d78a1c] bg-transparent hover:bg-[#fa992a] hover:text-white hover:border-[#fa992a] hover:transition-ease-linear hover:transition-delay-75'],
-    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#fa992a] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-[#fa992a] hover:bg-transparent hover:text-[#d78a1c] hover:border-[#d78a1c] hover:transition-ease-linear hover:transition-delay-75'],
-    ['text-primary', 'text-[#fa992a]'],
+    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#E6D134] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-[#E6D134] bg-transparent hover:bg-[#ffeb3d] hover:text-white hover:border-[#ffeb3d] hover:transition-ease-linear hover:transition-delay-75'],
+    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#ffeb3d] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-[#ffeb3d] hover:bg-transparent hover:text-[#E6D134] hover:border-[#E6D134] hover:transition-ease-linear hover:transition-delay-75'],
+    ['text-primary', 'text-[#ffeb3d]'],
     ['text-secondary', 'text-[#444444]'],
     ['text-light', 'text-[#b4b4b4]'],
-    ['bg-primary', 'bg-[#fa992a]'],
-    ['border-primary', 'border-[#fa992a]'],
+    ['bg-primary', 'bg-[#ffeb3d]'],
+    ['border-primary', 'border-[#ffeb3d]'],
     ['zoom-in', 'transition-all duration-400 ease-linear hover:scale-120 hover:brightness-135 hover:transition-ease-linear hover:transition-delay-200 hover:transition-duration-1000'],
   ],
   presets: [

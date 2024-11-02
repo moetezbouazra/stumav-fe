@@ -65,12 +65,12 @@
 
             <!-- Pièce Jointe -->
             <div>
-              <input id="contact-file" type="file" name="data[Contact][attached]" class="file:mr-4 !h-full !w-fit file:cursor-pointer file:border-0 !border-none file:px-4 file:py-2 file:text-sm file:text-white hover:file:bg-[#d35400]">
+              <input id="contact-file" type="file" name="data[Contact][attached]" class="file:mr-4 !h-full !w-fit file:cursor-pointer file:border-0 !border-none file:px-4 file:py-2 file:text-sm file:text-white hover:file:bg-[#E6D134]">
             </div>
 
             <!-- Submit Buttons -->
             <div class="flex pt-4 space-x-4">
-              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#d78a1c]">
+              <button type="submit" name="contact_submit" class="bg-primary text-white btn hover:bg-[#E6D134]">
                 Envoyer
               </button>
               <button type="reset" class="btn hover:bg-[#3c3c3c]">
@@ -100,7 +100,7 @@
               <div>
                 <span class="text-[11px] text-light font-600 uppercase">Téléphone</span>
                 <p class="text-[15px] text-gray-800 font-semibold leading-[2px]">
-                  (+216) 29 402 440
+                  (+216) 73 482 398
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@
               <div>
                 <span class="text-[11px] text-light font-600 uppercase">E-mail</span>
                 <p class="text-[15px] text-gray-800 font-semibold leading-[2px]">
-                  stumav1@gmail.com
+                  contact@stumav.com
                 </p>
               </div>
             </div>

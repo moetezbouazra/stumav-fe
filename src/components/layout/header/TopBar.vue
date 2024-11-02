@@ -1,10 +1,7 @@
 <template>
   <div class="mx-8 mx-auto max-w-270 flex justify-between text-primary">
-    <div class="mx-auto mt-5 flex flex-col items-center md:ml-5">
-      <img src="/images/logo.svg" alt="" class="w-12 md:m-0">
-      <div>
-        <strong uppercase>Stumav</strong>
-      </div>
+    <div class="mx-auto mt-5 flex flex-col items-center pb-4 md:ml-5">
+      <img src="/images/logo-wide.webp" alt="" class="w-82 md:m-0">
     </div>
     <div class="hidden items-center gap-x-6 md:flex">
       <div class="flex items-center">
@@ -15,7 +12,10 @@
             EMAIL
           </div>
           <div class="font-semibold">
-            stumav1@gmail.com
+            <div>contact@stumav.com</div>
+            <div class="-mt-3">
+              hichem@stumav.com
+            </div>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
             Téléphone
           </div>
           <div class="font-semibold">
-            (+216) 29 402 440
+            (+216) 73 482 398
           </div>
         </div>
       </div>
