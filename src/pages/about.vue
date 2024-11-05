@@ -25,7 +25,7 @@
           </h4>
           <ul class="text-gray-700 list-disc list-inside">
             <li><strong>Tel : 73482398</strong></li>
-            <li><strong>Mail : contact@stumav.com</strong></li>
+            <li><strong>Mail : hichem@stumav.com</strong></li>
             <li><strong>Mail : contact@stumav.com</strong></li>
           </ul>
         </div>
