@@ -13,13 +13,16 @@
       </h3>
       <hr class="my-7 h-px max-w-65 w-full border-none bg-gray-300 text-left">
       <p class="mt-2">
-        <strong>STUMAV</strong> est une entreprise commerciale créée en 2008 spécialisée dans la vente en Gros et en Détail de produits d'aluminium (des profils en aluminium, des volets roulant, des accessoires, des moteurs, etc.) et de machines utilisées dans la menuiserie d'aluminium.
+        <strong>STUMAV</strong> est une entreprise commerciale créée en 2013 spécialisée dans la vente en Gros des accessoires et ferrures pour les portes et fenêtres en aluminium. Elle fait la distribution et la livraison de ces produits sur tout le territoire de la Tunisie.
+      </p>
+      <p class="mt-2">
+        Elle représente des produits de différentes marques et différentes gammes en partenariat avec des géants et célèbres fabricants.
       </p>
       <p class="mt-4">
-        <strong>STUMAV</strong> fournit aussi à ses clients des services de livraison et des services après ventes, comm...
+        <strong>STUMAV</strong> est devenue, malgré son jeune âge, une des entreprises principales dans son secteur...
       </p>
 
-      <a class="ml-[55%] btn" href="/">
+      <a class="ml-[55%] btn" href="/about">
         Plus de détail
       </a>
     </div>

@@ -1,7 +1,7 @@
 import { ViteSSG } from 'vite-ssg'
 import { setupLayouts } from 'virtual:generated-layouts'
-
 import { routes } from 'vue-router/auto-routes'
+import { createPinia } from 'pinia'
 
 // PrimeVue
 import { definePreset } from '@primevue/themes'
@@ -12,12 +12,11 @@ import Menubar from 'primevue/menubar'
 import Ripple from 'primevue/ripple'
 import Aura from '@primevue/themes/nora'
 import Carousel from 'primevue/carousel'
-
-import App from './App.vue'
 import type { UserModule } from './types'
+import App from './App.vue'
 
 // Swiper
-import '~/modules/swiper' // Register Swiper globally
+import '~/modules/swiper'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
@@ -45,7 +44,6 @@ const customPreset = definePreset(Aura, {
   },
 })
 
-// https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
   {
@@ -58,9 +56,13 @@ export const createApp = ViteSSG(
     },
   },
   (ctx) => {
-    // install all modules under `modules/`
+    const pinia = createPinia()
+    ctx.app.use(pinia)
+
+    // Install all modules under `modules/`
     Object.values(import.meta.glob<{ install: UserModule }>('./modules/*.ts', { eager: true }))
       .forEach(i => i.install?.(ctx))
+
     ctx.app
       .use(PrimeVue, {
         ripple: true,

@@ -21,6 +21,7 @@ declare module 'vue' {
     MapEmbed: typeof import('./components/contact/MapEmbed.vue')['default']
     NavBar: typeof import('./components/layout/header/NavBar.vue')['default']
     NewsletterSection: typeof import('./components/layout/sections/newsletterSection.vue')['default']
+    PageLoader: typeof import('./components/loaders/PageLoader.vue')['default']
     PartnersSection: typeof import('./components/layout/sections/PartnersSection.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

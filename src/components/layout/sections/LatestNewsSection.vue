@@ -33,15 +33,15 @@ onMounted(() => {
       </div>
 
       <div class="flex items-center gap-x-4">
-        <div class="swiper-button-prev-custom i-fa6-solid-chevron-left text-2xl text-primary !overflow-hidden" />
+        <div class="swiper-button-prev-custom-news i-fa6-solid-chevron-left text-2xl text-primary !overflow-hidden" />
 
         <Swiper
           ref="swiperRef"
           :space-between="20"
           :modules="modules"
           :navigation="{
-            nextEl: '.swiper-button-next-custom',
-            prevEl: '.swiper-button-prev-custom',
+            nextEl: '.swiper-button-next-custom-news',
+            prevEl: '.swiper-button-prev-custom-news',
           }"
           :breakpoints
           class="w-43 sm:w-270"
@@ -51,7 +51,7 @@ onMounted(() => {
           </SwiperSlide>
         </Swiper>
 
-        <div class="swiper-button-next-custom i-fa6-solid-chevron-right text-2xl text-primary" />
+        <div class="swiper-button-next-custom-news i-fa6-solid-chevron-right text-2xl text-primary" />
       </div>
 
       <a class="w-fit bg-primary text-white btn hover:brightness-70" href="/">
