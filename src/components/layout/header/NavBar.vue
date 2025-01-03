@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import InputIcon from 'primevue/inputicon'
-
 const items = ref([
   {
     label: 'Accueil',
@@ -39,14 +37,14 @@ const route = useRoute()
           <span>{{ item.label }}</span>
         </a>
       </template>
-      <template #end>
+      <!-- <template #end>
         <div class="flex items-center gap-2">
           <IconField>
             <InputText placeholder="Search" type="text" class="h-[80%] w-32 !text-primary !h-8 sm:w-auto !bg-white" />
             <InputIcon class="pi pi-search !text-primary" />
           </IconField>
         </div>
-      </template>
+      </template> -->
       <template #buttonicon>
         <div class="i-fa6-solid-bars text-white" />
       </template>

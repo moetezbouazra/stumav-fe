@@ -7,6 +7,7 @@ import { createPinia } from 'pinia'
 import { definePreset } from '@primevue/themes'
 import PrimeVue from 'primevue/config'
 import InputText from 'primevue/inputtext'
+import InputIcon from 'primevue/inputicon'
 import IconField from 'primevue/iconfield'
 import Menubar from 'primevue/menubar'
 import Ripple from 'primevue/ripple'
@@ -71,6 +72,7 @@ export const createApp = ViteSSG(
         },
       })
       .component('InputText', InputText)
+      .component('InputIcon', InputIcon)
       .component('Menubar', Menubar)
       .component('IconField', IconField)
       .component('Carousel', Carousel)
