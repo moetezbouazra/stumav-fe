@@ -37,13 +37,13 @@ onMounted(() => {
       <div class="relative z-40 flex flex-col items-center gap-y-10">
         <div>
           <h3 class="text-white">
-            Dernières <strong>produits</strong>
+            Nos <strong>produits</strong>
           </h3>
           <hr class="mx-auto mt-5 h-px max-w-65 w-full border-none bg-white text-left">
         </div>
 
         <div class="flex items-center gap-x-4">
-          <div class="i-fa6-solid-chevron-left swiper-button-prev-custom-product text-2xl text-white" />
+          <div class="swiper-button-prev-custom-product i-fa6-solid-chevron-left text-2xl text-white" />
 
           <Swiper
             ref="swiperRef"
@@ -54,6 +54,7 @@ onMounted(() => {
               prevEl: '.swiper-button-prev-custom-product',
             }"
             :breakpoints
+            autoplay
             class="w-43 sm:w-270"
           >
             <SwiperSlide v-for="product in products" :key="product.id">
@@ -61,7 +62,7 @@ onMounted(() => {
             </SwiperSlide>
           </Swiper>
 
-          <div class="i-fa6-solid-chevron-right swiper-button-next-custom-product text-2xl text-white" />
+          <div class="swiper-button-next-custom-product i-fa6-solid-chevron-right text-2xl text-white" />
         </div>
 
         <a class="w-fit border-white bg-white btn" href="/">

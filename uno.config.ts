@@ -12,13 +12,13 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#E6D134] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-[#E6D134] bg-transparent hover:bg-[#ffeb3d] hover:text-white hover:border-[#ffeb3d] hover:transition-ease-linear hover:transition-delay-75'],
-    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#ffeb3d] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-[#ffeb3d] hover:bg-transparent hover:text-[#E6D134] hover:border-[#E6D134] hover:transition-ease-linear hover:transition-delay-75'],
-    ['text-primary', 'text-[#ffeb3d]'],
+    ['btn', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border  rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-[#000000] bg-transparent hover:bg-[#808080] hover:text-white hover:border-[#808080] hover:transition-ease-linear hover:transition-delay-75'],
+    ['btn-inverted', 'box-border no-underline font-raleway text-xs font-semibold uppercase px-7 py-3 mb-1 leading-none inline-block min-w-[8.5em] text-center z-10 border border-[#808080] rounded-tl-[12px] rounded-br-[12px] relative transition-all duration-400 ease-linear text-white bg-[#808080] hover:bg-transparent hover:transition-ease-linear hover:transition-delay-75'],
+    ['text-primary', 'text-[#808080]'],
     ['text-secondary', 'text-[#444444]'],
     ['text-light', 'text-[#b4b4b4]'],
-    ['bg-primary', 'bg-[#ffeb3d]'],
-    ['border-primary', 'border-[#ffeb3d]'],
+    ['bg-primary', 'bg-[#808080]'],
+    ['border-primary', 'border-[#808080]'],
     ['zoom-in', 'transition-all duration-400 ease-linear hover:scale-120 hover:brightness-135 hover:transition-ease-linear hover:transition-delay-200 hover:transition-duration-1000'],
   ],
   presets: [

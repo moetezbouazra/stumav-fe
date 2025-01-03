@@ -9,7 +9,7 @@ defineOptions({
     <hero-section />
     <about-section />
     <latest-products-section />
-    <latest-news-section />
+    <!-- <latest-news-section /> -->
   </div>
 </template>
 
