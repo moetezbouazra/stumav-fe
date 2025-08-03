@@ -9,22 +9,25 @@
 
 .p-menubar-item-content {
   border-radius: 0 !important;
-  color: white !important;
   transition-property: all !important;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
   transition-duration: 200ms !important;
   transition-timing-function: linear !important;
 }
 
-.p-menubar-item-content:hover {
-  background-color: #e6d134 !important;
-  color: white !important;
-  transition-timing-function: linear !important;
-  transition-duration: 200ms !important;
+@media (min-width: 992px) {
+  .p-menubar-item-content {
+    color: white !important;
+  }
 }
 
-.p-menubar-item-content:active {
-  background-color: #e6d134 !important;
+@media (min-width: 992px) {
+  .p-menubar-item-content:hover {
+    background-color: #e6d134 !important;
+    color: white !important;
+    transition-timing-function: linear !important;
+    transition-duration: 200ms !important;
+  }
 }
 
 .p-menubar-mobile {

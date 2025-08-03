@@ -4,15 +4,18 @@ import { routes } from 'vue-router/auto-routes'
 import { createPinia } from 'pinia'
 
 // PrimeVue
-import { definePreset } from '@primevue/themes'
 import PrimeVue from 'primevue/config'
 import InputText from 'primevue/inputtext'
 import InputIcon from 'primevue/inputicon'
 import IconField from 'primevue/iconfield'
 import Menubar from 'primevue/menubar'
 import Ripple from 'primevue/ripple'
-import Aura from '@primevue/themes/nora'
 import Carousel from 'primevue/carousel'
+import Dialog from 'primevue/dialog'
+import Card from 'primevue/card'
+import ProgressSpinner from 'primevue/progressspinner'
+import Button from 'primevue/button'
+import Message from 'primevue/message'
 import type { UserModule } from './types'
 import App from './App.vue'
 
@@ -26,24 +29,7 @@ import '@unocss/reset/tailwind.css'
 import 'primeicons/primeicons.css'
 import './styles/main.scss'
 import 'uno.css'
-
-const customPreset = definePreset(Aura, {
-  semantic: {
-    primary: {
-      50: '{blue.50}',
-      100: '{blue.100}',
-      200: '{blue.200}',
-      300: '{blue.300}',
-      400: '{blue.400}',
-      500: '{blue.500}',
-      600: '{blue.600}',
-      700: '{blue.700}',
-      800: '{blue.800}',
-      900: '{blue.900}',
-      950: '{blue.950}',
-    },
-  },
-})
+import customPreset from './presets/customPreset'
 
 export const createApp = ViteSSG(
   App,
@@ -69,6 +55,9 @@ export const createApp = ViteSSG(
         ripple: true,
         theme: {
           preset: customPreset,
+          options: {
+            darkModeSelector: false || 'none',
+          },
         },
       })
       .component('InputText', InputText)
@@ -76,6 +65,12 @@ export const createApp = ViteSSG(
       .component('Menubar', Menubar)
       .component('IconField', IconField)
       .component('Carousel', Carousel)
+      .component('Dialog', Dialog)
       .directive('ripple', Ripple)
+      .component('Card', Card)
+      .component('Button', Button)
+      .component('DataView', DataView)
+      .component('ProgressSpinner', ProgressSpinner)
+      .component('Message', Message)
   },
 )

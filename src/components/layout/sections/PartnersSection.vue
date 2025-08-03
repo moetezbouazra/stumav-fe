@@ -2,8 +2,9 @@
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import type SwiperCore from 'swiper'
-import { PartnersService } from '~/services/partners'
+import { PartnersService } from '~/services/partners/partnersList'
 
+const router = useRouter()
 const modules = [Pagination, Navigation]
 const breakpoints = {
   640: {
@@ -19,6 +20,10 @@ const swiperRef = ref<SwiperCore>()
 onMounted(() => {
   PartnersService.getPartners().then((data: string | any[]) => (partners.value = data.slice(0, 9)))
 })
+
+function navigateTo(path: string) {
+  router.push(path)
+}
 </script>
 
 <template>
@@ -40,7 +45,7 @@ onMounted(() => {
         :breakpoints
       >
         <SwiperSlide v-for="partner in partners" :key="partner.id">
-          <img :src="partner.image" :alt="partner.name" class="w-42.5 border border-[#d1d2d4]">
+          <img :src="partner.image" :alt="partner.name" class="w-42.5 cursor-pointer border border-[#d1d2d4]" @click="() => navigateTo(`/partners/${partner.id}/products/`)">
         </SwiperSlide>
       </Swiper>
     </div>

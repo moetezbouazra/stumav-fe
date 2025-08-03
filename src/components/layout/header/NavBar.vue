@@ -6,7 +6,7 @@ const items = ref([
   },
   {
     label: 'A Propos',
-    link: '/about',
+    link: '/about/',
   },
   // {
   //   label: 'Produits',
@@ -14,7 +14,7 @@ const items = ref([
   // },
   {
     label: 'Nos Partenaires',
-    link: '/partners',
+    link: '/partners/',
   },
   // {
   //   label: 'Devis en Ligne',
@@ -22,7 +22,7 @@ const items = ref([
   // },
   {
     label: 'Contact',
-    link: '/contact',
+    link: '/contact/',
   },
 ])
 const router = useRouter()
@@ -33,7 +33,7 @@ const route = useRoute()
   <div class="card bg-primary">
     <Menubar :model="items">
       <template #item="{ item, props }">
-        <a v-ripple class="flex items-center" :class="[route.path === item.link ? 'bg-primary bg-[#E6D134]' : '']" v-bind="props.action" @click="router.push(item.link)">
+        <a v-ripple class="flex items-center" :class="[route.path === item.link ? 'bg-primary bg-[#E6D134] !text-white' : '']" v-bind="props.action" @click="router.push(item.link)">
           <span>{{ item.label }}</span>
         </a>
       </template>
@@ -46,7 +46,7 @@ const route = useRoute()
         </div>
       </template> -->
       <template #buttonicon>
-        <div class="i-fa6-solid-bars text-white" />
+        <div class="i-fa6-solid-bars text-white !hover:bg-[#212121]" />
       </template>
     </Menubar>
   </div>

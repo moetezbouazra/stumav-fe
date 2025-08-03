@@ -8,11 +8,10 @@
     <meta name="msapplication-TileColor" content="#00aba9" />
     <script>
       ;(function () {
-        const prefersDark =
-          window.matchMedia &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches
-        const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
-        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('vueuse-color-scheme') || 'light' // Changed default from 'auto' to 'light'
+        if (setting === 'dark' || (prefersDark && setting === 'auto'))
+          // Only apply dark if explicitly set or if auto and prefers dark
           document.documentElement.classList.toggle('dark', true)
       })()
     </script>
@@ -20,9 +19,6 @@
   <body class="font-sans">
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
-    <noscript>
-      This website requires JavaScript to function properly. Please enable
-      JavaScript to continue.
-    </noscript>
+    <noscript> This website requires JavaScript to function properly. Please enable JavaScript to continue. </noscript>
   </body>
 </html>
