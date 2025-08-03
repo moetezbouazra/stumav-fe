@@ -32,18 +32,11 @@ function getSeverity(product: Product) {
           :alt="product.name"
           class="h-48 w-full object-cover"
         >
-        <Tag
-          v-if="product.inventoryStatus"
-          :value="product.inventoryStatus"
-          :severity="getSeverity(product)"
-          class="absolute right-2 top-2"
-        />
       </div>
     </template>
     <template #title>
       <div class="flex items-start justify-between">
         <span class="line-clamp-2">{{ product.name }}</span>
-        <span class="ml-2 whitespace-nowrap text-primary font-bold">${{ product.price.toFixed(2) }}</span>
       </div>
     </template>
     <template #subtitle>
@@ -62,12 +55,12 @@ function getSeverity(product: Product) {
     </template>
     <template #footer>
       <div class="flex justify-between gap-2">
-        <Button
+        <!-- <Button
           icon="pi pi-shopping-cart"
           label="Acheter "
           class="p-button-sm flex-1 bg-[#E6D134]"
           :disabled="product.inventoryStatus === 'Repture de stock'"
-        />
+        /> -->
       </div>
     </template>
   </Card>

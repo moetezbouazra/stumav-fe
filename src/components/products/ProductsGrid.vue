@@ -106,15 +106,6 @@ onMounted(() => {
                 </div>
               </template>
             </Select>
-            <Select
-              v-model="sortKey"
-              :options="sortOptions"
-              pt:label="!text-black"
-              option-label="label"
-              placeholder="Trier par"
-              class="min-w-24"
-              @change="onSortChange"
-            />
           </div>
         </div>
       </template>
@@ -133,19 +124,12 @@ onMounted(() => {
                   :alt="product.name"
                   class="h-48 w-full object-cover"
                 >
-                <Tag
-                  v-if="product.inventoryStatus"
-                  :value="product.inventoryStatus"
-                  :severity="getSeverity(product)"
-                  class="absolute right-2 top-2"
-                />
               </div>
               <div class="flex flex-1 flex-col p-4">
                 <div class="mb-2 flex items-start justify-between">
                   <h3 class="text-lg text-gray-900 font-semibold line-clamp-2">
                     {{ product.name }}
                   </h3>
-                  <span class="ml-2 whitespace-nowrap text-primary font-bold">${{ product.price.toFixed(2) }}</span>
                 </div>
                 <div v-if="product.rating" class="mb-3 flex items-center">
                   <Rating :model-value="product.rating" readonly :cancel="false" class="mr-2 [&>span]:text-sm" />
@@ -155,13 +139,13 @@ onMounted(() => {
                   {{ product.description }}
                 </p>
                 <div class="mt-auto flex justify-between gap-2">
-                  <Button
+                  <!-- <Button
                     icon="pi pi-shopping-cart"
                     label="Acheter "
                     size="small"
                     :disabled="product.inventoryStatus === 'Repture de stock'"
                     class="flex-1 bg-[#E6D134]"
-                  />
+                  /> -->
                 </div>
               </div>
             </div>
@@ -183,12 +167,6 @@ onMounted(() => {
                 :src="product.image || '/images/products/product-image-placeholder.svg'"
                 :alt="product.name"
               >
-              <Tag
-                v-if="product.inventoryStatus"
-                :value="product.inventoryStatus"
-                :severity="getSeverity(product)"
-                class="absolute right-2 top-2"
-              />
             </div>
             <div class="flex flex-1 flex-col justify-between gap-6 md:flex-row md:items-center">
               <div class="flex flex-row items-start justify-between gap-2 md:flex-col">
@@ -208,15 +186,14 @@ onMounted(() => {
                 </div>
               </div>
               <div class="flex flex-col gap-4 md:items-end">
-                <span class="text-xl font-semibold">${{ product.price.toFixed(2) }}</span>
                 <div class="flex flex-row-reverse gap-2 md:flex-row">
-                  <Button
+                  <!-- <Button
                     icon="pi pi-shopping-cart"
                     label="Acheter "
                     size="small"
                     :disabled="product.inventoryStatus === 'Repture de stock'"
                     class="whitespace-nowrap bg-[#E6D134]"
-                  />
+                  /> -->
                 </div>
               </div>
             </div>
