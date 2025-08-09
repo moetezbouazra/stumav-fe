@@ -23,8 +23,6 @@ declare module 'vue' {
     NewsletterSection: typeof import('./components/layout/sections/newsletterSection.vue')['default']
     PageLoader: typeof import('./components/loaders/PageLoader.vue')['default']
     PartnersSection: typeof import('./components/layout/sections/PartnersSection.vue')['default']
-    ProductCard: typeof import('./components/products/ProductCard.vue')['default']
-    ProductsGrid: typeof import('./components/products/ProductsGrid.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

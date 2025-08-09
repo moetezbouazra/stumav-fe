@@ -1,4 +1,4 @@
 // these APIs are auto-imported from @vueuse/core
 export const isDark = useDark()
 export const toggleDark = useToggle(isDark)
-export const preferredDark = ref(false)
+export const preferredDark = usePreferredDark()

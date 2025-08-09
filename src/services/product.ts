@@ -10,7 +10,7 @@ export const ProductService = {
         price: 65,
         category: 'Accessories',
         quantity: 24,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 5,
       },
       {
@@ -22,7 +22,7 @@ export const ProductService = {
         price: 72,
         category: 'Accessories',
         quantity: 61,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 4,
       },
       {
@@ -34,7 +34,7 @@ export const ProductService = {
         price: 29,
         category: 'Clothing',
         quantity: 25,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 5,
       },
       {
@@ -46,7 +46,7 @@ export const ProductService = {
         price: 10,
         category: 'Accessories',
         quantity: 100,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 4,
       },
       {
@@ -58,7 +58,7 @@ export const ProductService = {
         price: 10,
         category: 'Accessories',
         quantity: 100,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 4,
       },
       {
@@ -70,7 +70,7 @@ export const ProductService = {
         price: 10,
         category: 'Accessories',
         quantity: 100,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 4,
       },
       {
@@ -82,7 +82,7 @@ export const ProductService = {
         price: 10,
         category: 'Accessories',
         quantity: 100,
-        inventoryStatus: 'En stock',
+        inventoryStatus: 'INSTOCK',
         rating: 4,
       },
     ]
