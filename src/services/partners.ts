@@ -29,7 +29,7 @@ export const PartnersService = {
         id: '5',
         title: 'Weather Update: Heavy Rains Expected Tomorrow',
         date: '2024-10-09',
-        image: '/images/partners/Motivec C.jpg',
+        image: '/images/partners/stac.png',
       },
     ]
   },
