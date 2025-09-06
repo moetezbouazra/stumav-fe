@@ -25,14 +25,14 @@ async function submitForm() {
     formDataToSend.append('message', formData.value.message)
 
     // Send form data to API
-    const response = await axios.post('https://stumav.com/backend/contact', formDataToSend, {
+    const response = await axios.post('https://stumav.com/backend/contact.php', formDataToSend, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
     })
 
     // Check for success response and handle it
-    if (response.data && response.data.notification_id) {
+    if (response) {
       successMessage.value = 'Message envoyé avec succès ! '
       errorMessage.value = ''
       formData.value = { nom: '', prenom: '', gsm: '', email: '', message: '' }
