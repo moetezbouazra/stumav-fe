@@ -12,9 +12,11 @@
             EMAIL
           </div>
           <div class="font-semibold">
-            <div>contact@stumav.com</div>
+            <div>
+              <a href="mailto:contact@stumav.com" class="hover:text-gray-400">contact@stumav.com</a>
+            </div>
             <div class="-mt-3">
-              hichem@stumav.com
+              <a href="mailto:hichem@stumav.com" class="hover:text-gray-400">hichem@stumav.com</a>
             </div>
           </div>
         </div>
@@ -26,7 +28,9 @@
             Téléphone
           </div>
           <div class="font-semibold">
-            (+216) 73 482 398
+            <a href="tel:+21673482398" class="hover:text-gray-400">
+              <span>(+216) 73 482 398</span>
+            </a>
           </div>
         </div>
       </div>

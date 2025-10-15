@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="parallax relative px-7 py-6 bg-products">
+  <section id="products" class="parallax relative px-7 py-6 bg-products">
     <div class="after:bg-primary after:absolute after:inset-0 after:z-30 after:block after:opacity-50 after:content-empty">
       <div class="relative z-40 flex flex-col items-center gap-y-10">
         <div>

@@ -24,8 +24,9 @@ async function submitForm() {
     formDataToSend.append('email', formData.value.email)
     formDataToSend.append('message', formData.value.message)
 
-    // Send form data to API
-    const response = await axios.post('https://stumav.com/backend/contact.php', formDataToSend, {
+    // Send form data to API via proxy
+    const apiUrl = import.meta.env.PROD ? 'https://stumav.com/backend/contact.php' : '/api/contact.php'
+    const response = await axios.post(apiUrl, formDataToSend, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
@@ -47,7 +48,7 @@ async function submitForm() {
 </script>
 
 <template>
-  <section>
+  <section id="form">
     <div class="mx-auto text-left container">
       <div class="flex flex-wrap md:mx-25">
         <!-- Form Section -->

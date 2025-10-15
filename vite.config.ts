@@ -24,6 +24,17 @@ export default defineConfig({
     },
   },
 
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://stumav.com',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, '/backend'),
+        secure: false,
+      },
+    },
+  },
+
   plugins: [
     VueMacros({
       plugins: {

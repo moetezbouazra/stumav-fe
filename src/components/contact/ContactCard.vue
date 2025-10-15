@@ -29,7 +29,9 @@ defineProps({
             <p class="text-center">
               <strong class="text-primary">Adresse</strong>
               <br>
-              {{ contact.address }}
+              <a :href="`https://maps.google.com/?q=${encodeURIComponent(contact.address)}`" target="_blank" class="hover:text-primary">
+                {{ contact.address }}
+              </a>
             </p>
           </div>
           <div>
@@ -38,7 +40,9 @@ defineProps({
             <p class="text-center">
               <strong class="text-primary">Email</strong>
               <br>
-              {{ contact.email }}
+              <a :href="`mailto:${contact.email}`" class="hover:text-primary">
+                {{ contact.email }}
+              </a>
             </p>
           </div>
 
@@ -46,8 +50,11 @@ defineProps({
             <div class="i-fa6-solid-phone mx-auto mb-2 text-xl text-primary" />
             <p class="text-center">
               <strong class="text-primary">Téléphone</strong>
-            </p><div v-for="phone in contact.phones" :key="phone">
-              {{ phone }}
+            </p>
+            <div v-for="phone in contact.phones" :key="phone" class="text-center">
+              <a :href="`tel:${phone.replace(/\s/g, '')}`" class="hover:text-primary">
+                {{ phone }}
+              </a>
             </div>
           </div>
         </div>
