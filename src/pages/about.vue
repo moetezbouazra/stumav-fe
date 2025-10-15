@@ -1,3 +1,42 @@
+<script setup lang="ts">
+useHead({
+  title: 'À propos de Stumav - Entreprise d\'Accessoires et Ferrures en Aluminium',
+  meta: [
+    {
+      name: 'description',
+      content: 'Découvrez l\'histoire de Stumav, entreprise tunisienne créée en 2013 spécialisée dans la vente en gros d\'accessoires et ferrures pour portes et fenêtres en aluminium. Distribution sur tout le territoire tunisien.',
+    },
+    {
+      name: 'keywords',
+      content: 'stumav, à propos, entreprise, tunisie, jemmal, aluminium, ferrures, accessoires, histoire, 2013',
+    },
+    // Open Graph tags
+    {
+      property: 'og:title',
+      content: 'À propos de Stumav - Entreprise d\'Accessoires et Ferrures en Aluminium',
+    },
+    {
+      property: 'og:description',
+      content: 'Découvrez l\'histoire de Stumav, entreprise tunisienne créée en 2013 spécialisée dans la vente en gros d\'accessoires et ferrures pour portes et fenêtres en aluminium.',
+    },
+    {
+      property: 'og:url',
+      content: 'https://stumav.com/about',
+    },
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://stumav.com/about',
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="py-16 text-left">
     <div class="mx-auto max-w-4xl px-4 container">
